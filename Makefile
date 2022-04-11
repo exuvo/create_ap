@@ -19,7 +19,7 @@ uninstall:
 	rm -f $(DESTDIR)$(BINDIR)/create_ap
 	rm -f $(DESTDIR)/etc/create_ap.conf
 	[ ! -f /lib/systemd/system/create_ap.service ] || rm -f $(DESTDIR)$(PREFIX)/lib/systemd/system/create_ap.service
-	[ ! -f /lib/systemd/system-sleep/create_ap.resume ] || rm -f $(DESTDIR)/lib/systemd/system/create_ap.resume
+	[ ! -f /lib/systemd/system-sleep/create_ap.resume ] || rm -f $(DESTDIR)$(PREFIX)/lib/systemd/system/create_ap.resume
 	[ ! -e /sbin/openrc-run ] || rm -f $(DESTDIR)/etc/init.d/create_ap
 	rm -f $(DESTDIR)$(PREFIX)/share/bash-completion/completions/create_ap
 	rm -f $(DESTDIR)$(PREFIX)/share/doc/create_ap/README.md
