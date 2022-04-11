@@ -7,7 +7,7 @@ This project is a fork of the no-longer-maintained [oblique/create_ap](//github.
 * Hide your SSID.
 * Enable [Wi-Fi Protected Setup](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup) (WPS) with push-button or PIN methods.
 * Disable communication between clients (client isolation).
-* IEEE 802.11n & 802.11ac support
+* IEEE 802.11n (Wi-Fi 4), 802.11ac (Wi-Fi 5), 802.11ax (Wi-Fi 6) support.
 * Internet sharing methods: NATed or Bridged or None (no Internet sharing).
 * Choose the AP Gateway IP (only for 'NATed' and 'None' Internet sharing methods).
 * You can create an AP with the same interface you are getting your Internet connection.
